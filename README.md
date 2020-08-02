@@ -42,4 +42,6 @@ The analysis of the election show that:
 - Diane DeGette, who received "73.8%" of the vote and "272,892" number of votes.
 
 ## Election-Audit Summary
-2 examples of how to reuse script for any election and what would need to be adjusted
+The usefulness of this script goes beyond just the current results. It can be used with data from a new election in the future. There are also some small modifications we can make to the current script to handle variations in those elections:
+1. A lot of post election results will show the demographics such as age, race, and gender to try to see if there are any trends. This data would be stored in the same excel sheet along with each ballet number. From there we just need to add new variables and loops to count the extra statistics and then print them out to the console and text file.
+2. Voter turnout it another huge statistic to track. In terms of data all we need is the number of eligible voters. From there we can calculate the percentage of actual voters by counting the total number ballets. This could also be used along with point 1 to review voter turn out based on race, age, and other demographics.
